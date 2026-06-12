@@ -1,0 +1,45 @@
+# Personal Claude Code files (not visible to teammates)
+CLAUDE.md
+.claude/
+RESEARCH_JOURNAL.md
+
+# macOS
+.DS_Store
+
+# Office and editor temp files
+~$*
+.~lock.*
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+.mypy_cache/
+.ipynb_checkpoints/
+
+# Virtual environments
+.env
+.env.local
+venv/
+.venv/
+env/
+
+# Jupyter
+*.ipynb_checkpoints
+
+# Editors and IDEs
+.vscode/
+.idea/
+*.swp
+
+# Models and large local artifacts (use external storage instead)
+*.pth
+*.pkl
+*.h5
+
+# Data files (keep raw data out of git)
+*.csv
+*.parquet
+*.feather
