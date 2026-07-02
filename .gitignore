@@ -5,6 +5,9 @@ RESEARCH_JOURNAL.md
 CODE_REVIEW_DETAILS.md
 LITERATURE_NOTES.md
 
+# Personal diagnostics work (a curated subset will be pushed separately)
+diagnostics/
+
 # macOS
 .DS_Store
 
@@ -45,3 +48,9 @@ env/
 *.csv
 *.parquet
 *.feather
+
+# Local run artifacts (training logs, intermediate outputs)
+rerun/outputs/
+
+# Exception: keep the published 5-seed result table tracked
+!rerun/results_5seed.csv
